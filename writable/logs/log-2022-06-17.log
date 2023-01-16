@@ -1,0 +1,293 @@
+CRITICAL - 2022-06-17 01:13:58 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(47): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:14:41 --> Class 'App\Controllers\CompanyModel' not found
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 01:14:52 --> Undefined variable: companyID
+#0 C:\xampp\htdocs\Que\app\Controllers\Service.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 01:18:04 --> Undefined index: companyID
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:18:45 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:56 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:57 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:57 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:58 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:58 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:59 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:20:59 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:21:00 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\serviceList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/service...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(50): view('service/service...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->serviceList()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:30:09 --> Undefined variable: dateID
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addTime.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addTim...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addTim...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 01:30:26 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:26 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:27 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:28 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:28 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:28 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:29 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:29 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:30 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:30:30 --> Invalid file: schedule/viewTime.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/viewTi...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 01:43:45 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 01:46:53 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/viewTi...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewTime('5')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-17 03:48:16 --> Invalid file: schedule/addAppointment.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/addApp...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addApp...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Appointment.php(53): view('schedule/addApp...', Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Appointment->addAppointment('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Appointment))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 03:48:26 --> Invalid file: schedule/addAppointment.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('schedule/addApp...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addApp...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Appointment.php(53): view('schedule/addApp...', Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Appointment->addAppointment('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Appointment))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 03:49:40 --> Invalid file: appointment/addAppointment.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('appointment/add...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('appointment/add...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Appointment.php(53): view('appointment/add...', Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Appointment->addAppointment('5')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Appointment))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 03:49:58 --> Undefined variable: timeID
+#0 C:\xampp\htdocs\Que\app\Views\schedule\viewTime.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/viewTi...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Appointment.php(53): view('schedule/viewTi...', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Appointment->addAppointment('5')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Appointment))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

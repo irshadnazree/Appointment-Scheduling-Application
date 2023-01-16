@@ -1,0 +1,562 @@
+ERROR - 2022-06-06 06:18:34 --> Unknown column 'servProID' in 'field list'
+CRITICAL - 2022-06-06 06:18:34 --> Unknown column 'servProID' in 'field list'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\UserModel.php(74): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(66): App\Models\UserModel->insertStaff(11, '12')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-06 06:26:28 --> Unknown column 'servProID' in 'field list'
+CRITICAL - 2022-06-06 06:26:28 --> Unknown column 'servProID' in 'field list'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(64): App\Models\CompanyModel->insertStaff(12, '12')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-06 07:04:50 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\Que\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Que\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\Que\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\Que\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-06 10:30:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-06 10:30:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(156): App\Models\CompanyModel->getCompany('12')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-06 10:30:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-06 10:30:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(156): App\Models\CompanyModel->getCompany(13)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-06 10:30:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-06 10:30:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(156): App\Models\CompanyModel->getCompany(13)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-06 10:30:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-06 10:30:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(156): App\Models\CompanyModel->getCompany(13)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-06 10:30:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-06 10:30:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(78): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(156): App\Models\CompanyModel->getCompany(13)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-06 10:31:08 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\user\dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(159): view('user/dashboard')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:44:48 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/addComp...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/addComp...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 11:45:02 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/addComp...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/addComp...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 11:45:17 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:46:01 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:46:21 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:47:21 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:48:16 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:48:24 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:48:25 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:48:43 --> Undefined index: companyAddress
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:50:30 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:50:36 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:50:37 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:51:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 11:51:40 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:51:40 --> Undefined index: companyName
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:52:48 --> Cannot use object of type App\Models\CompanyModel as array
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 11:53:04 --> Undefined index: companyAddress
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:53:04 --> Undefined index: companyAddress
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:53:14 --> Undefined index: Address
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:53:15 --> Undefined index: Address
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:53:36 --> Call to undefined method App\Models\CompanyModel::getResult
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:53:37 --> Call to undefined method App\Models\CompanyModel::getResult
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:54:44 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:54:45 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:54:45 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:54:45 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:54:45 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:54:45 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 11:55:21 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Company.php(87): view('company/viewCom...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 11:56:47 --> Call to undefined method App\Models\CompanyModel::getRow
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(84): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('9')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-06 12:43:20 --> Unknown column 'userID' in 'where clause'
+CRITICAL - 2022-06-06 12:43:20 --> Unknown column 'userID' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(155): App\Models\CompanyModel->getCompanyOwn('12')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-06 12:51:13 --> Invalid file: company/editCompany3.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:51:25 --> Invalid file: company/editCompany/3.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:53:27 --> Invalid file: company/editCompany/3.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:56:05 --> Invalid file: company/editCompany/3.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:56:22 --> Invalid file: company/editCompany/.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:56:39 --> Invalid file: company/companyDetail/.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/company...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/company...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/company...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:56:46 --> Invalid file: company/editCompany/.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:57:00 --> Invalid file: company/editCompany/.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:57:01 --> Invalid file: company/editCompany/.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:58:22 --> Invalid file: company/editCompany/.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/editCom...')
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 12:59:32 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\company\editCompany.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/editCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(156): view('company/editCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 13:04:41 --> Unknown column 'address' in 'field list'
+CRITICAL - 2022-06-06 13:04:41 --> Unknown column 'address' in 'field list'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `company...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `company...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `company...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `company...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(656): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\Que\app\Controllers\Company.php(146): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->editCompany('3')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-06 13:04:54 --> Undefined index: address
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(86): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

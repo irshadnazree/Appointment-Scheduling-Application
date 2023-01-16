@@ -1,0 +1,1166 @@
+CRITICAL - 2022-06-12 00:08:04 --> Undefined variable: rules
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->addStaff()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 00:08:06 --> Undefined variable: rules
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->addStaff()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 00:08:36 --> Undefined variable: rules
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->addStaff()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-12 00:56:56 --> Column 'userID' in where clause is ambiguous
+CRITICAL - 2022-06-12 00:56:56 --> Column 'userID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(163): App\Models\CompanyModel->getCompanyOwn('12')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-12 01:10:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Que\app\Views\company\viewCompany.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('company/viewCom...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(88): view('company/viewCom...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 01:10:50 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:44:57 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:45:34 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:46:07 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:53:59 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:54:14 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:55:03 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:55:05 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:56:56 --> Array to string conversion
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 177, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 02:57:35 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:58:04 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:58:50 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:59:17 --> Undefined index: firstName
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:59:19 --> Undefined index: firstName
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 02:59:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 02:59:51 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:00:34 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:01:30 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:44 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:45 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:45 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:45 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:45 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:45 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:01:45 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:02:01 --> Call to undefined method App\Models\StaffModel::getStaffDetail
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): CodeIgniter\Model->__call('getStaffDetail', Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:02:11 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Models\StaffModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): App\Models\StaffModel->getUserID('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 03:02:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): App\Models\StaffModel->getUserID('73')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:04:11 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Models\StaffModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): App\Models\StaffModel->getUserID('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-12 03:04:44 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(174): App\Models\StaffModel->getUserID('73')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:04:54 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Staf...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Staf...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Staff.php(110): spl_autoload_call('App\\Models\\Staf...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 03:06:53 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:07:21 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 03:07:55 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:07:57 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:07:57 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:07:57 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:08:39 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:08:40 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:08:47 --> Array to string conversion
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:00 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(177): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:09:34 --> Array to string conversion
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:38 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 03:09:44 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 03:09:50 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:51 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:51 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:51 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:52 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:09:52 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:10:04 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-12 03:10:35 --> Undefined variable: staff
+#0 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-12 03:10:38 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 03:10:46 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 03:11:47 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:11:50 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:12:06 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:12:07 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:12:07 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(175): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:12:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:13:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(176): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:16:06 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:16:24 --> Undefined index: email
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(179): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:19:00 --> Undefined index: phone
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(177): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:20:45 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 03:22:16 --> Undefined index: phone
+#0 C:\xampp\htdocs\Que\app\Views\staff\editStaff.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/editStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(178): view('staff/editStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->editStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 06:02:48 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\staff\viewStaff.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('staff/viewStaff', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Staff.php(19): view('staff/viewStaff')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->viewStaff('73')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-12 09:32:53 --> Duplicate entry '74' for key 'PRIMARY'
+CRITICAL - 2022-06-12 09:32:53 --> Duplicate entry '74' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\StaffModel.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Staff.php(181): App\Models\StaffModel->deleteStaff('74')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Staff->deleteStaff('74')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-12 09:56:19 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 09:56:33 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 10:05:21 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('category/addCat...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Category.php(13): view('category/addCat...', Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Category->addCategory()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:05:22 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('category/addCat...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Category.php(13): view('category/addCat...', Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Category->addCategory()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:05:43 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('category/addCat...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Category.php(13): view('category/addCat...', Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Category->addCategory()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:14:49 --> Undefined variable: category
+#0 C:\xampp\htdocs\Que\app\Views\user\dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 10:14:50 --> Undefined variable: category
+#0 C:\xampp\htdocs\Que\app\Views\user\dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 10:14:50 --> Undefined variable: category
+#0 C:\xampp\htdocs\Que\app\Views\user\dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 10:14:50 --> Undefined variable: category
+#0 C:\xampp\htdocs\Que\app\Views\user\dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 10:14:51 --> Undefined variable: category
+#0 C:\xampp\htdocs\Que\app\Views\user\dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): view('user/dashboard')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 10:16:51 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:17:05 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): spl_autoload_call('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:17:05 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): spl_autoload_call('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:17:06 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): spl_autoload_call('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:17:06 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): spl_autoload_call('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:17:06 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(166): spl_autoload_call('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->dashboard()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-12 10:52:20 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 10:52:22 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 10:52:27 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\addService.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/addServ...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(63): view('service/addServ...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService('13')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 11:02:09 --> Undefined variable: category
+#0 C:\xampp\htdocs\Que\app\Views\service\addService.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/addServ...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(65): view('service/addServ...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 11:05:33 --> Undefined index: CategoryID
+#0 C:\xampp\htdocs\Que\app\Views\service\addService.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/addServ...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(70): view('service/addServ...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 11:05:40 --> Undefined index: CategoryID
+#0 C:\xampp\htdocs\Que\app\Views\service\addService.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/addServ...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(70): view('service/addServ...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 19:41:45 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 19:42:42 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 19:42:43 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 19:42:43 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-12 19:42:44 --> Too few arguments to function App\Controllers\Service::addService(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->addService()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-12 19:52:26 --> Unknown column 'serviceStatus' in 'where clause'
+CRITICAL - 2022-06-12 19:52:26 --> Unknown column 'serviceStatus' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ServiceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(89): App\Models\ServiceModel->getServiceList('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('3')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-12 19:53:07 --> Unknown column 'serviceStatus' in 'where clause'
+CRITICAL - 2022-06-12 19:53:07 --> Unknown column 'serviceStatus' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ServiceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(89): App\Models\ServiceModel->getServiceList('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('3')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-12 19:53:20 --> Unknown column 'serviceStatus' in 'where clause'
+CRITICAL - 2022-06-12 19:53:20 --> Unknown column 'serviceStatus' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ServiceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(89): App\Models\ServiceModel->getServiceList('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('3')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-12 19:53:21 --> Unknown column 'serviceStatus' in 'where clause'
+CRITICAL - 2022-06-12 19:53:21 --> Unknown column 'serviceStatus' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ServiceModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(89): App\Models\ServiceModel->getServiceList('3')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->viewCompany('3')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-12 20:01:46 --> Unknown column 'staffID' in 'where clause'
+CRITICAL - 2022-06-12 20:01:46 --> Unknown column 'staffID' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Que\app\Controllers\Service.php(142): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->deleteService('1')
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-12 20:02:11 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:02:44 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:03:06 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:03:07 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:03:07 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:03:08 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:03:08 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:03:08 --> Undefined variable: company
+#0 C:\xampp\htdocs\Que\app\Views\service\editService.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/editSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(127): view('service/editSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->editService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:05:51 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:06:34 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:06:47 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:06:48 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:06:48 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:06:48 --> Undefined variable: companyDetail
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:06:58 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-12 20:07:30 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 20:07:48 --> Undefined index: firstName
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(18): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,1516 @@
+CRITICAL - 2022-06-02 10:47:06 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/login', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(16): view('user/login', Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 11:11:14 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:15:43 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:17:17 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:17:19 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:21:47 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(46): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:22:02 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:22:04 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:22:30 --> Allowed fields must be specified for model: App\Models\userModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\user...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:23:10 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(45): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:23:43 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(44): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:23:45 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(44): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 11:54:17 --> email is not a valid Validation template.
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+#1 C:\xampp\htdocs\Que\app\Views\user\register.php(8): CodeIgniter\Validation\Validation->listErrors('email')
+#2 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/register', Array, true)
+#5 C:\xampp\htdocs\Que\app\Controllers\Users.php(52): view('user/register', Array)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-02 11:54:44 --> Call to undefined method CodeIgniter\Validation\Validation::get_error()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/register', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(52): view('user/register', Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 11:54:49 --> Call to undefined method CodeIgniter\Validation\Validation::get_error()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/register', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(52): view('user/register', Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 12:06:47 --> Invalid file: _errors_list.php
+#0 C:\xampp\htdocs\Que\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('_errors_list.ph...')
+#1 C:\xampp\htdocs\Que\system\Validation\Validation.php(508): CodeIgniter\View\View->render('_errors_list')
+#2 C:\xampp\htdocs\Que\app\Views\user\register.php(11): CodeIgniter\Validation\Validation->showError('email', 'my_list')
+#3 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/register', Array, true)
+#6 C:\xampp\htdocs\Que\app\Controllers\Users.php(52): view('user/register', Array)
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-02 12:07:59 --> Call to undefined method CodeIgniter\Validation\Validation::listError()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/register', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(52): view('user/register', Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 12:31:40 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:33:08 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:33:29 --> Class 'app\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:33:32 --> Class 'app\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:34:24 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:36:53 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:36:55 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:37:35 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:38:40 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:40:16 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:42:44 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:42:50 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:44:50 --> Class 'App\Validation\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:46:50 --> Class 'App\Validations\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:46:53 --> Class 'App\Validations\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:47:10 --> Class 'App\Validations\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 12:47:12 --> Class 'App\Validations\UserRules' not found
+#0 C:\xampp\htdocs\Que\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\Que\app\Controllers\Users.php(33): CodeIgniter\Controller->validate(Array, Array)
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-02 14:02:47 --> Undefined index: id
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(41): App\Controllers\Users->setUserSession(Array)
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 14:05:32 --> Undefined index: data
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 18:54:49 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-02 18:55:34 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-02 18:55:34 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Que\app\Controllers\Users.php(146): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-02 18:55:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Que\app\Views\user\profile.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(149): view('user/profile', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 19:24:12 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\user...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\user...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(145): spl_autoload_call('App\\Models\\user...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 19:24:13 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\user...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\user...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(145): spl_autoload_call('App\\Models\\user...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 19:24:13 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\user...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\user...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(145): spl_autoload_call('App\\Models\\user...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 19:24:54 --> Undefined index: data
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): App\Models\UserModel->checkAdmin(Array)
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 19:25:05 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): App\Models\UserModel->checkAdmin(Array)
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 19:25:06 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): App\Models\UserModel->checkAdmin(Array)
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 19:25:06 --> Undefined index: userID
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): App\Models\UserModel->checkAdmin(Array)
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 19:25:41 --> Undefined index: UserID
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:25:42 --> Undefined index: UserID
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:25:42 --> Undefined index: UserID
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:25:42 --> Undefined index: UserID
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:44:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(68): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(47): App\Controllers\Users->setUserSession(Array)
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 19:47:22 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\Que\app\Validations\UserRules.php(8): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\Que\system\Validation\Validation.php(292): App\Validations\UserRules->validateUser('abc123', 'email,password', Array, NULL)
+#5 C:\xampp\htdocs\Que\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'abc123', Array, Array)
+#6 C:\xampp\htdocs\Que\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\Que\app\Controllers\Users.php(39): CodeIgniter\Controller->validate(Array, Array)
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-02 19:55:08 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\user...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\user...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(148): spl_autoload_call('App\\Models\\user...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 19:55:09 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\user...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\user...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(148): spl_autoload_call('App\\Models\\user...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 19:55:46 --> Too few arguments to function App\Models\UserModel::checkUserType(), 0 passed in C:\xampp\htdocs\Que\app\Controllers\Users.php on line 150 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:55:47 --> Too few arguments to function App\Models\UserModel::checkUserType(), 0 passed in C:\xampp\htdocs\Que\app\Controllers\Users.php on line 150 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:55:47 --> Too few arguments to function App\Models\UserModel::checkUserType(), 0 passed in C:\xampp\htdocs\Que\app\Controllers\Users.php on line 150 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:56:13 --> Use of undefined constant query - assumed 'query' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 19:58:18 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 19:58:22 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:00:04 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\user...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\user...')
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(148): spl_autoload_call('App\\Models\\user...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 20:00:15 --> Undefined variable: model
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:03:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:03:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:03:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:03:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:04:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:04:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:04:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:04:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:04:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:04:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:09:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::fieldExists()
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-02 20:10:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2' at line 1
+CRITICAL - 2022-06-02 20:10:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SHOW COLUMNS FR...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SHOW COLUMNS FR...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW COLUMNS FR...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(1398): CodeIgniter\Database\BaseConnection->query('SHOW COLUMNS FR...')
+#4 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(1426): CodeIgniter\Database\BaseConnection->getFieldNames('2')
+#5 C:\xampp\htdocs\Que\app\Models\UserModel.php(38): CodeIgniter\Database\BaseConnection->fieldExists('userID', '2')
+#6 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-02 20:16:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\Que\app\Models\UserModel.php on line 37
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseBuilder->get('userID', '1')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:16:03 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\Que\app\Models\UserModel.php on line 37
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseBuilder->get('userID', '1')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:19:43 --> Too few arguments to function App\Models\UserModel::__construct(), 0 passed in C:\xampp\htdocs\Que\app\Controllers\Users.php on line 148 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(148): App\Models\UserModel->__construct()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:19:43 --> Too few arguments to function App\Models\UserModel::__construct(), 0 passed in C:\xampp\htdocs\Que\app\Controllers\Users.php on line 148 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(148): App\Models\UserModel->__construct()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 20:23:03 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\Que\app\Models\UserModel.php on line 37
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseBuilder->get('userID')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:23:38 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\Que\app\Models\UserModel.php on line 37
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseBuilder->get('userID')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:23:39 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\Que\app\Models\UserModel.php on line 37
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseBuilder->get('userID')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:23:39 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\Que\app\Models\UserModel.php on line 37
+#0 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseBuilder->get('userID')
+#1 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 20:23:52 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-02 20:28:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 2' at line 1
+CRITICAL - 2022-06-02 20:28:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 2' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 20:29:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 2' at line 1
+CRITICAL - 2022-06-02 20:29:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 2' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 20:29:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 1' at line 1
+CRITICAL - 2022-06-02 20:29:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 1' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 20:29:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = '1'' at line 1
+CRITICAL - 2022-06-02 20:29:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = '1'' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Que\app\Models\UserModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 20:30:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 1' at line 1
+CRITICAL - 2022-06-02 20:30:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 1' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 20:30:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 1' at line 1
+CRITICAL - 2022-06-02 20:30:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''admin' WHERE userID = 1' at line 1
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\xampp\htdocs\Que\app\Models\UserModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(150): App\Models\UserModel->checkUserType('2')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:39:08 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\profile.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(214): view('user/profile', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editprofile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:39:23 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\profile.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(214): view('user/profile', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editprofile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:39:43 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\profile.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(214): view('user/profile', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editprofile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:40:03 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\editProfile.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/editProfil...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(214): view('user/editProfil...', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:40:06 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\editProfile.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/editProfil...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(214): view('user/editProfil...', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:40:27 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\editProfile.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/editProfil...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(214): view('user/editProfil...', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 20:56:24 --> Undefined variable: user
+#0 C:\xampp\htdocs\Que\app\Views\user\editProfile.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('user/editProfil...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Users.php(218): view('user/editProfil...', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 21:01:33 --> Unknown column 'user.id' in 'where clause'
+CRITICAL - 2022-06-02 21:01:33 --> Unknown column 'user.id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-02 21:09:22 --> Unknown column 'user.id' in 'where clause'
+CRITICAL - 2022-06-02 21:09:22 --> Unknown column 'user.id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-02 21:10:11 --> Column 'personalID' cannot be null
+CRITICAL - 2022-06-02 21:10:11 --> Column 'personalID' cannot be null
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-02 21:11:36 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:11:51 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-02 21:12:54 --> Unknown column 'user.id' in 'where clause'
+CRITICAL - 2022-06-02 21:12:54 --> Unknown column 'user.id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-02 21:13:58 --> Call to a member function session() on string
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 21:14:04 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-02 21:14:17 --> Unknown column 'user.id' in 'where clause'
+CRITICAL - 2022-06-02 21:14:17 --> Unknown column 'user.id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(1, Array)
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-02 21:16:18 --> Unknown column 'user.id' in 'where clause'
+CRITICAL - 2022-06-02 21:16:18 --> Unknown column 'user.id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update('user.userID', Array)
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-02 21:17:16 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:18:01 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:19:10 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:19:31 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:19:34 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:19:40 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:21:09 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-02 21:21:37 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-06-02 21:21:37 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-02 21:21:49 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-06-02 21:21:49 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-02 21:22:24 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:22:25 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:22:27 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:22:44 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:23:09 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-02 21:24:11 --> Unknown column 'user.id' in 'where clause'
+CRITICAL - 2022-06-02 21:24:11 --> Unknown column 'user.id' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-02 21:24:45 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:24:51 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:24:54 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:26:19 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:26:23 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:27:53 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:28:28 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(211): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:38:21 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 21:39:54 --> There is no data to update.
+#0 C:\xampp\htdocs\Que\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Que\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Que\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Que\app\Controllers\Users.php(212): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 22:19:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(69): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:12 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:12 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 22:20:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Company.php(70): view('template/header', Array)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 23:56:12 --> Undefined variable: servProID
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 23:56:12 --> Undefined variable: servProID
+#0 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-02 23:56:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:56:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister(1)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:56:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:56:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:57:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:57:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:57:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:57:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:58:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:58:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `staffID...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staffID...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staffID...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-02 23:58:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-06-02 23:58:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `staffID...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `staffID...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `staffID...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\CompanyModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Company.php(72): App\Models\CompanyModel->ownerRegister()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Company->addCompany()
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

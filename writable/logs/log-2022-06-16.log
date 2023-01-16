@@ -1,0 +1,427 @@
+CRITICAL - 2022-06-16 17:40:07 --> Too few arguments to function app\Controllers\Schedule::addSchedule(), 0 passed in C:\xampp\htdocs\Que\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addSchedule()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 17:41:03 --> Call to undefined function app\Controllers\getDateWeek()
+#0 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addSchedule()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-16 17:46:33 --> Too few arguments to function app\Controllers\Schedule::getWeeklyDayNumbers(), 0 passed in C:\xampp\htdocs\Que\app\Controllers\Schedule.php on line 20 and exactly 2 expected
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(20): app\Controllers\Schedule->getWeeklyDayNumbers()
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addSchedule()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 17:52:45 --> Undefined offset: 2
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addSchedule()
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-16 18:12:30 --> Column 'scheduleDate' cannot be null
+CRITICAL - 2022-06-16 18:12:30 --> Column 'scheduleDate' cannot be null
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\Que\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Que\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Que\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Que\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addSchedule('1')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-16 18:22:09 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Que\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-16 18:22:57 --> Unknown column 'service' in 'where clause'
+CRITICAL - 2022-06-16 18:22:57 --> Unknown column 'service' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleDateModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(13): App\Models\ScheduleDateModel->getScheduleDateList(1)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewSchedule('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-16 18:23:07 --> Unknown column 'serviceID' in 'where clause'
+CRITICAL - 2022-06-16 18:23:07 --> Unknown column 'serviceID' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleDateModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(13): App\Models\ScheduleDateModel->getScheduleDateList(1)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewSchedule('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-16 18:23:08 --> Unknown column 'serviceID' in 'where clause'
+CRITICAL - 2022-06-16 18:23:08 --> Unknown column 'serviceID' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleDateModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(13): App\Models\ScheduleDateModel->getScheduleDateList(1)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewSchedule('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-16 18:23:08 --> Unknown column 'serviceID' in 'where clause'
+CRITICAL - 2022-06-16 18:23:08 --> Unknown column 'serviceID' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleDateModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(13): App\Models\ScheduleDateModel->getScheduleDateList(1)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewSchedule('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-16 18:23:08 --> Unknown column 'serviceID' in 'where clause'
+CRITICAL - 2022-06-16 18:23:08 --> Unknown column 'serviceID' in 'where clause'
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleDateModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(13): App\Models\ScheduleDateModel->getScheduleDateList(1)
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->viewSchedule('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-16 19:13:17 --> date() expects parameter 2 to be int, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\Que\app\Views\service\viewService.php(52): date('D', Array)
+#2 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#5 C:\xampp\htdocs\Que\app\Controllers\Service.php(28): view('service/viewSer...')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-16 19:13:38 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\Que\app\Views\service\viewService.php(52): date('D', '2022-06-13')
+#2 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#5 C:\xampp\htdocs\Que\app\Controllers\Service.php(28): view('service/viewSer...')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#8 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-16 19:30:38 --> Undefined variable: serviceID
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->editScheduleDate('1')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 19:39:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 19:40:00 --> Undefined variable: serviceID
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 19:40:25 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:03 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:18 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:18 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:27 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:30 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:44 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 19:41:44 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addSchedule.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addSch...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addSch...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 22:03:02 --> Undefined variable: service
+#0 C:\xampp\htdocs\Que\app\Views\schedule\addTime.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('schedule/addTim...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(120): view('schedule/addTim...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 22:54:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 22:54:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Que\app\Controllers\Schedule.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): app\Controllers\Schedule->addTime('35')
+#2 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Schedule))
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-16 23:31:04 --> Column 'scheduleDateID' in where clause is ambiguous
+CRITICAL - 2022-06-16 23:31:04 --> Column 'scheduleDateID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleTimeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): App\Models\ScheduleTimeModel->getTimeList('32')
+#6 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#9 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#12 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-06-16 23:32:01 --> Column 'scheduleDateID' in where clause is ambiguous
+CRITICAL - 2022-06-16 23:32:01 --> Column 'scheduleDateID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleTimeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): App\Models\ScheduleTimeModel->getTimeList('32')
+#6 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#9 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#12 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-06-16 23:32:02 --> Column 'scheduleDateID' in where clause is ambiguous
+CRITICAL - 2022-06-16 23:32:02 --> Column 'scheduleDateID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleTimeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): App\Models\ScheduleTimeModel->getTimeList('32')
+#6 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#9 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#12 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-06-16 23:32:02 --> Column 'scheduleDateID' in where clause is ambiguous
+CRITICAL - 2022-06-16 23:32:02 --> Column 'scheduleDateID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleTimeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): App\Models\ScheduleTimeModel->getTimeList('32')
+#6 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#9 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#12 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-06-16 23:32:02 --> Column 'scheduleDateID' in where clause is ambiguous
+CRITICAL - 2022-06-16 23:32:02 --> Column 'scheduleDateID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleTimeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): App\Models\ScheduleTimeModel->getTimeList('32')
+#6 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#9 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#12 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-06-16 23:32:03 --> Column 'scheduleDateID' in where clause is ambiguous
+CRITICAL - 2022-06-16 23:32:03 --> Column 'scheduleDateID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Que\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Que\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Que\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Que\app\Models\ScheduleTimeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): App\Models\ScheduleTimeModel->getTimeList('32')
+#6 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#9 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#10 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#11 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#12 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-16 23:34:01 --> Array to string conversion
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 23:35:04 --> Call to undefined function ScheduleTimeModel()
+#0 C:\xampp\htdocs\Que\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#3 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 23:39:22 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-16 23:43:34 --> Undefined index: scheduleStartTime
+#0 C:\xampp\htdocs\Que\app\Views\service\viewService.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Que\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#4 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#6 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-16 23:45:56 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\Que\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Que\system\Common.php(1089): CodeIgniter\View\View->render('service/viewSer...', Array, true)
+#2 C:\xampp\htdocs\Que\app\Controllers\Service.php(33): view('service/viewSer...')
+#3 C:\xampp\htdocs\Que\system\CodeIgniter.php(832): App\Controllers\Service->viewService('1')
+#4 C:\xampp\htdocs\Que\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\xampp\htdocs\Que\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Que\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
